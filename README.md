@@ -12,10 +12,3 @@ Download the original checkpoints used for the reported MOSI and MOSEI results.
 - [SHA-256 checksums](https://github.com/hhczjw/PairWrite-SSM/releases/download/paper-checkpoints-v1/SHA256SUMS)
 
 See the [GitHub Release](https://github.com/hhczjw/PairWrite-SSM/releases/tag/paper-checkpoints-v1) for the corresponding metrics.
-
-## LMVD depression-detection retraining
-
-- [LMVD checkpoint files and metrics](checkpoints/LMVD/retrain_20261123/README.md)
-- [Primary validation-Avg-best checkpoint](checkpoints/LMVD/retrain_20261123/best_avg.pt)
-
-The 2026-11-23 retraining completed 120 epochs and reproduced the historical single-run test Avg of 88.59% and F1 of 89.06%. See the protocol and selection scope in the checkpoint documentation.
